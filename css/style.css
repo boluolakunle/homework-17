@@ -1,6 +1,11 @@
 
-.HiCopy{
-    display: inline-block;
+.heroImg{
+    display: flex;
+    flex-direction: column;
+}
+.heroImg img{
+    width: 500px;
+    height: auto;
 }
 .inlineBlock{
     display: inline-block;
@@ -23,14 +28,10 @@ ul{
     width: 50%;
     margin-left: auto;
 }
-.heroImg{
-    display: inline-grid;
-    justify-content: end;
+.aboutMe{
+  display: inline-block;  
+}
 
-}
-img {
-    display: inline-block;
-}
 .content{
     width: 500px;
     
@@ -46,7 +47,6 @@ li{
     font-style: normal;
 }
 h1{
-    width: 550px;
     font-size: 45pt;
     font-family: "manteiga-gorda", sans-serif;
     font-weight: 400;
